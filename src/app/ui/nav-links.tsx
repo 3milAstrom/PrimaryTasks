@@ -1,10 +1,10 @@
 "use client";
 
-import { usePathname } from "next/navigation";
-import Link from "next/link";
+// import { usePathname } from "next/navigation";
+// import Link from "next/link";
 
 export function NavLinks() {
-  const pathname = usePathname();
+  //   const pathname = usePathname();
 
   return (
     <aside
@@ -16,7 +16,7 @@ export function NavLinks() {
         <ul className="space-y-2 font-medium">
           <li>
             <a
-              href="#"
+              href="/"
               className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
             >
               <svg
@@ -34,7 +34,7 @@ export function NavLinks() {
           </li>
           <li>
             <a
-              href="#"
+              href="/first_grade"
               className="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
             >
               <svg

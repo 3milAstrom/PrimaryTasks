@@ -16,7 +16,7 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <NavLinks />
-        {children}
+        <div className="p-4 sm:ml-64">{children}</div>
       </body>
     </html>
   );
